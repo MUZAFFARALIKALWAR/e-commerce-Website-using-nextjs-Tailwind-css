@@ -16,10 +16,11 @@ function FreshSales(){
                 <div className="flex flex-col">
                     <h3 className="text-red-500 font-bold border-l-8  border-red-400 pl-3 ml-1">Today&apos;s</h3>
                     <div className="flex ">
-                    <h1 className="text-gray-800 font-bold sm:text-md md:text-3xl lg:text-3xl pt-4">Fresh Sales</h1> <Image src={"/images/freesh/freesh.png"}
+                    <h1 className="text-gray-800 font-bold sm:text-md md:text-3xl lg:text-3xl pt-4">Fresh Sales</h1> 
+                    <Image src={"/images/freesh/freesh.png"}
                     width={200}
                     height={200}
-                    className="ml-10"
+                    className="ml-10 sm:hidden md:block"
                      alt="freesh sales"></Image> </div>
                 </div>
                 <div className="flex sm:flex-col md:flex-row lg:flex-row justify-between mt-5 sm:flex-nowrap md:flex-wrap lg:flex-nowrap">
