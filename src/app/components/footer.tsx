@@ -16,7 +16,7 @@ export default function Footer(){
                       <li className="pt-2 cursor-pointer">Get 10% off your first order</li>
                       <li className="mt-3 cursor-pointer py-1 border flex justify-center">
                         <input type="text" placeholder="Enter your Email" className="bg-gray-900 border-none text-white"/>
-                        <FontAwesomeIcon icon={faArrowCircleRight}className="text-xl  " ></FontAwesomeIcon></li>
+                        <FontAwesomeIcon icon={faArrowCircleRight}className="text-xl  sm:hidden md:block" ></FontAwesomeIcon></li>
                     </ul>
                    </div>
                    <div className=" w-[200px]  ">
