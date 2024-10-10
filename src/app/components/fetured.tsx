@@ -34,7 +34,7 @@ export default function Futured(){
                      <div className="bg-gray-950 flex  relative items-end h-full ">
                           {/* text  */}
                      <div className="absolute left-2 bottom-3">
-                       <h1 className="sm:text-lg font-bold md:text-xl">Women's Collections</h1>
+                       <h1 className="sm:text-lg font-bold md:text-xl">Women&apos;s Collections</h1>
                         <p className="relative bottom-0 text-xs py-1">Featured woman collections that give you another vibe.</p>
                         <button className="text-md font-sans underline underline-offset-8 hover:font-bold">Shop Now</button>
                       </div>
