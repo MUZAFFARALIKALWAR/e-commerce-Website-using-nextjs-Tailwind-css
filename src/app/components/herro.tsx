@@ -9,13 +9,13 @@ function Herro(){
             <div className="sm:full md:w-full lg:w-[80%] flex justify-evenly">
                 <div className='border-r-2 border-neutral-100 p-5 sm:hidden md:hidden lg:block pb-0 '>
                     <ul>
-                        <li className='leading-loose hover:underline cursor-pointer'>Woman's Fashion  <FontAwesomeIcon icon={faChevronRight} className='text-xs ml-2'></FontAwesomeIcon></li>
-                        <li className='leading-loose hover:underline cursor-pointer'>Men's Fashion  <FontAwesomeIcon icon={faChevronRight} className='text-xs ml-8'></FontAwesomeIcon></li>
+                        <li className='leading-loose hover:underline cursor-pointer'>Woman&apos;s Fashion  <FontAwesomeIcon icon={faChevronRight} className='text-xs ml-2'></FontAwesomeIcon></li>
+                        <li className='leading-loose hover:underline cursor-pointer'>Men&apos;s Fashion  <FontAwesomeIcon icon={faChevronRight} className='text-xs ml-8'></FontAwesomeIcon></li>
                         <li className='leading-loose hover:underline cursor-pointer'>Electronics</li>
                         <li className='leading-loose hover:underline cursor-pointer'>Home & Lifestyle</li>
                         <li className='leading-loose hover:underline cursor-pointer'>Medicine</li>
                         <li className='leading-loose hover:underline cursor-pointer'>Sports & Outdoor</li>
-                        <li className='leading-loose hover:underline cursor-pointer'>Baby's & Toys</li>
+                        <li className='leading-loose hover:underline cursor-pointer'>Baby&apos;s & Toys</li>
                         <li className='leading-loose hover:underline cursor-pointer'>Groceries & Pets</li>
                         <li className='leading-loose hover:underline cursor-pointer'>Health & Beauty</li>
                         

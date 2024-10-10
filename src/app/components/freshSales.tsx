@@ -14,7 +14,7 @@ function FreshSales(){
             <div className="w-[80%]">
                 {/* container boxes */}
                 <div className="flex flex-col">
-                    <h3 className="text-red-500 font-bold border-l-8  border-red-400 pl-3 ml-1">Today's</h3>
+                    <h3 className="text-red-500 font-bold border-l-8  border-red-400 pl-3 ml-1">Today&apos;s</h3>
                     <div className="flex ">
                     <h1 className="text-gray-800 font-bold sm:text-md md:text-3xl lg:text-3xl pt-4">Fresh Sales</h1> <Image src={"/images/freesh/freesh.png"}
                     width={200}
