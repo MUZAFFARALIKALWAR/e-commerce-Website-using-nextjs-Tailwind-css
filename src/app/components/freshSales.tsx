@@ -61,7 +61,7 @@ function FreshSales(){
                     <div className="group bg-neutral-100 shadow-md sm:w-full md:w-[300px] lg:w-[220px] h-[180px] flex justify-center items-center cursor-pointer relative">
                   {/* Image */}
                   <Image
-                    src={"/images/freesh/gaming.png"}
+                    src={"/images/freesh/keyboard.png"}
                     width={150}
                     height={100}
                     alt="game-images"
