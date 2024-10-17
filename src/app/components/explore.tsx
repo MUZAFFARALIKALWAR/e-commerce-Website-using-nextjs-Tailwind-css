@@ -9,7 +9,7 @@ import Image from "next/image"
 function Explore(){
     return (
         <main>
-         <div className="w-full flex justify-center items-center mt-10 mb-1 ">
+         <div id='products' className="w-full flex justify-center items-center mt-10 mb-1 ">
             {/* container */}
             <div className="w-[80%]">
                 {/* container boxes */}

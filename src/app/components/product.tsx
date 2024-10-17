@@ -5,6 +5,7 @@ import { faStar as regularStar } from '@fortawesome/free-regular-svg-icons';
 import { faHeart} from '@fortawesome/free-regular-svg-icons';
 
 import Image from "next/image"
+import Link from 'next/link';
 
 function Products(){
     return (
@@ -17,7 +18,7 @@ function Products(){
                     <h3 className="text-red-500 font-bold border-l-8  border-red-400 pl-3 ml-1">This Month</h3>
                     <div className="flex justify-between">
                     <h1 className="text-gray-800 font-bold sm:text-md md:text-3xl lg:text-3xl pt-4">Best Selling Products</h1>
-                    <button className='bg-red-500 hover:bg-red-600  sm:px-3 md:px-7 sm:text-sm md:text-sm py-0 text-white rounded-sm h-10 mt-3  '>View All</button>
+                    <Link href={"#products"} className='bg-red-500 pt-2 hover:bg-red-600  sm:px-3 md:px-7 sm:text-sm md:text-sm py-0 text-white rounded-sm h-10 mt-3  '>View All</Link>
 
                     </div>
                 </div>

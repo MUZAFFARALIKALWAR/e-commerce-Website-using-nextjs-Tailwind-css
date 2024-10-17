@@ -1,13 +1,16 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import { faApple } from '@fortawesome/free-brands-svg-icons';
 
 import Image from "next/image"
+import Link from 'next/link';
 function Herro(){
     return(
         <div className="w-full flex justify-center items-center">
-            <div className="sm:full md:w-full lg:w-[80%] flex justify-evenly">
-                <div className='border-r-2 border-neutral-100 p-5 sm:hidden md:hidden lg:block pb-0 '>
+            <div className="sm:w-full md:w-full lg:w-[80%] flex justify-evenly">
+                {/* left side */}
+                <div className='border-r-2 border-neutral-100 p-5 sm:hidden md:block  pb-0 '>
                     <ul>
                         <li className='leading-loose hover:underline cursor-pointer'>Woman&apos;s Fashion  <FontAwesomeIcon icon={faChevronRight} className='text-xs ml-2'></FontAwesomeIcon></li>
                         <li className='leading-loose hover:underline cursor-pointer'>Men&apos;s Fashion  <FontAwesomeIcon icon={faChevronRight} className='text-xs ml-8'></FontAwesomeIcon></li>
@@ -21,9 +24,28 @@ function Herro(){
                         
                     </ul>
                 </div>
-                <div className=' sm:pt-0 md:pt-0 lg:pt-6'>
-                 <Image className='sm:w-[900px] md:w-[900px] lg:w-[700px] h-full' width={600} height={400} src={"/images/home-pic/herro.png"} alt={"herro imgae"}></Image>
-                </div>
+                {/* right side */}
+                <div className='sm:w-full md:w-[650px] lg:w-[650px]  sm:mt-0 md:mt-6 sm:h-[250] md:h-[280px] bg-black flex justify-between pt-6 '>
+                     {/* left side */}
+                     <div className='text-white sm:w-[140px] md:w-[200px] pt-4 ml-5'>
+                          {/* icon div */}
+                          <div className='flex gap-x-2 items-center'>
+                            <span> <FontAwesomeIcon icon={faApple} className="text-white sm:text-2xl md:text-4xl" /> </span>
+                            <span className='sm:text-[10px] md:text-xs'>iPhone 14 Series</span>
+                          </div>
+                          <h1 className='sm:text-md md:text-4xl font-bold my-5'>Up to 10% off Voucher</h1>
+                         <Link href={"#products"} className=' underline underline-offset-4 hover:font-bold'>Shop Now-&gt;</Link>
+                          {/* <button className=' underline underline-offset-8 hover:font-bold'>Shop Now-&gt;</button> */}
+                     </div>
+
+                     {/* right side */}
+                     <div>
+                        <Image src={"/images/hero/iphone.png"}
+                        width={350}
+                        height={200}
+                        alt='hero iamges'></Image>
+                     </div>
+                 </div>
             </div>
         </div>
     )

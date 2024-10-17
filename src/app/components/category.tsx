@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMobileAlt,faDesktop,faStopwatch,faCamera,faHeadphones,faGamepad } from '@fortawesome/free-solid-svg-icons';
 
 
-import Image from "next/image"
+
 
 function Category(){
     return (
