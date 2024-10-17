@@ -1,4 +1,4 @@
-import Image from "next/image"
+
 import About from "../components/about"
 import Views from "../components/views"
 import Freedelvry from "../components/free"
