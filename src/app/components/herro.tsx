@@ -8,9 +8,9 @@ import Link from 'next/link';
 function Herro(){
     return(
         <div className="w-full flex justify-center items-center">
-            <div className="sm:w-full md:w-full lg:w-[80%] flex justify-evenly">
+            <div className="sm:w-full md:w-full lg:w-[80%] flex ">
                 {/* left side */}
-                <div className='border-r-2 border-neutral-100 p-5 sm:hidden md:block  pb-0 '>
+                <div className='border-r-2 border-neutral-100 p-10 sm:hidden md:block  pb-0  '>
                     <ul>
                         <li className='leading-loose hover:underline cursor-pointer'>Woman&apos;s Fashion  <FontAwesomeIcon icon={faChevronRight} className='text-xs ml-2'></FontAwesomeIcon></li>
                         <li className='leading-loose hover:underline cursor-pointer'>Men&apos;s Fashion  <FontAwesomeIcon icon={faChevronRight} className='text-xs ml-8'></FontAwesomeIcon></li>
@@ -25,7 +25,7 @@ function Herro(){
                     </ul>
                 </div>
                 {/* right side */}
-                <div className='sm:w-full md:w-[650px] lg:w-[650px]  sm:mt-0 md:mt-6 sm:h-[250] md:h-[280px] bg-black flex justify-between pt-6 '>
+                <div className='sm:w-full md:w-[650px] lg:w-[770px] sm:ml-0 md:ml-0 lg:ml-3 sm:mt-0 md:mt-10 sm:h-[250] md:h-[280px] bg-black flex justify-between pt-6 '>
                      {/* left side */}
                      <div className='text-white sm:w-[140px] md:w-[200px] pt-4 ml-5'>
                           {/* icon div */}
